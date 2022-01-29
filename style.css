@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    box-sizing: border-box;
+}
+
+.desktop {
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    /* position: fixed; */
+    color: white;
+    background-color: #1A1A40;
+}
+
+.desktop::-webkit-scrollbar {
+    display: none;
+}
+
+.desktop h1.desktop-title {
+    position: absolute;
+    top : 20px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.between-container {
+    position: relative;
+    margin: auto;
+    width: 425px;
+    /* border: 1px solid #FFC600; */
+}
+
+/* NAV */
+
+nav {
+    position: fixed;
+    width: 425px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav .top {
+    width: 100%;
+    height: 50px;
+    background-color: #7A0BC0;
+}
+
+nav .bottom {
+    width: 100%;
+    height: 60px;
+    background-color: #7A0BC0;
+}
+
+.top-nav {
+    position: fixed;
+    width: 425px;
+    height: 50px;
+    background-color: #7A0BC0;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 425px;
+    height: 60px;
+    background-color: #7A0BC0;
+}
+
+.mobile {
+    padding-top: 65px;
+    padding-bottom: 73px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #FA58B6;
+}
+
+.mobile > h1.mobile-title {
+    position: fixed;
+    top: 20px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.mobile .content-container {
+    /* height: 100vh; */
+    /* overflow: scroll; */
+}
+
+.mobile .content-container::-webkit-scrollbar {
+    display: none;
+}
+
+.mobile .content-container .hero-image {
+    width: 100%;
+    height: 200px;
+    background-color: #7A0BC0;
+}
+
+.mobile .content-container h2 {
+    margin: 10px 0;
+}
+
+.mobile .content-container p {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mobile .content-container .typography {
+    margin: 40px 0;
+}
+
+.mobile .content-container .typography h2 {
+    font-weight: 500;
+}
+
+.mobile .content-container .typography p {
+    font-weight: 300;
+}
+
+.mobile .top-nav {
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+}
